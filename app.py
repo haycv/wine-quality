@@ -1,7 +1,7 @@
 from flask import Flask, render_template, request
 import numpy as np
 import joblib
-
+from flask_cors import CORS
 app = Flask(__name__)
 
 # Load the pre-trained model
