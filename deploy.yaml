@@ -16,7 +16,7 @@ jobs:
     - name: Set up Python
       uses: actions/setup-python@v2
       with:
-        python-version: 3.x  # Chọn phiên bản Python bạn đang sử dụng
+        python-version: 3.12  # Chọn phiên bản Python bạn đang sử dụng
 
     - name: Install Dependencies
       run: |
